@@ -1,4 +1,68 @@
-let pizzas = [];
+
+let pizzas = [
+  {
+    id: 1,
+    name: 'pizza',
+    img: './img/muzarella.jpg',
+    price: 400,
+    description: 'muzarella, tomate',
+  },
+
+  {
+    id: 1,
+    name: 'pizza',
+    img: './img/muzarella.jpg',
+    price: 400,
+    description: 'muzarella, tomate',
+  },
+
+  {
+    id: 1,
+    name: 'pizza',
+    img: './img/muzarella.jpg',
+    price: 400,
+    description: 'muzarella, tomate',
+  },
+
+  {
+    id: 1,
+    name: 'pizza',
+    img: './img/muzarella.jpg',
+    price: 400,
+    description: 'muzarella, tomate',
+  },
+
+  {
+    id: 1,
+    name: 'pizza',
+    img: './img/muzarella.jpg',
+    price: 400,
+    description: 'muzarella, tomate',
+  },
+
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let pizzas = [];
 
 let Pizza = class {
   constructor(img, id, nombre, ingredientes, precio) {
@@ -85,3 +149,4 @@ let capitalize = (word) => {
 
 console.log()
 
+*/
