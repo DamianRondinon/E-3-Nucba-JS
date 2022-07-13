@@ -1,9 +1,14 @@
-const pageContainer = document.getElementById('page_container');
+
+const pageContainer = document.getElementById('container_pizzas');
 
 pizzas.forEach((product) => {
     const div = document.createElement('div');
     div.innerHTML = `
-    <img src="${product.img}" alt="" />
+    <h2>${product.name}</h2>
+    <img src="${product.img}" alt="" class="pizza" />
+    <p>${product.description}</p>
+    <span>$${product.price}</span>
+
     `;
     
 
