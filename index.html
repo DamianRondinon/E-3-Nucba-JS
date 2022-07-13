@@ -8,17 +8,21 @@
     <title>E-3-Nucba</title>
   </head>
   <body>
-    <main class="main">
+    <main>
       <section class="page">
         <h2>Pizzas YA!</h2>
         <div class="input-content">
-        <form action="" class="form">
-        <input type="number" class="pizza_input" id="input_id" placeholder="Número de la pizza">
+        <form class="form" name="pizza_form">
+        <input type="number" name="number" class="pizza_input" id="input_id" placeholder="Número de la pizza">
         <button type="submit" class="button">Seleccionar</button>
         </div>
     </form>
         <div id="container_pizzas"></div>
       </section>
+      <div class="menu_pizza">
+        <h2 class="title_menu">Menu</h2>
+        <ul class="pizzas_menu" id="menuPizzas"></ul>
+      </div>
     </main>
     <script defer src="main.js"></script>
     <script defer src="app-pizza.js"></script>
